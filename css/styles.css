@@ -1,13 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    user-select: none;
-}
-
 body{
-    height: 100vh;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: linear-gradient(45deg,#d8f2f3 0%, #ebf9f9 100%);
 }
 
@@ -16,6 +7,11 @@ body{
 }
 
 .center{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
